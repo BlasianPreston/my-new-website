@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    color: #C1C8E4;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+.intro {
+    background-image: linear-gradient(to bottom right, #5680E9 , #84CEEB, #5AB9EA, #8860D0);
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin: auto;
+
+}
+.home-image {
+    max-width: 400px;
+    height: auto;
+    position: relative;
+    display: flex;
+}
