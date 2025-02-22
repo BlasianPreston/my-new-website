@@ -11,14 +11,11 @@ export default function Navbar() {
     return (
         <nav>
             <div className='nav'>
-                <div className="logo">
-                    <a href="/"><Image src={Logo} alt ='Logo' className='my-logo'/></a>
-                </div>
                 <div className='pages'>
-                    <Link href="/">Home</Link>
-                    <Link href="/about">About Me</Link>
-                    <Link href="/skills">Skills</Link>
-                    <Link href="/projects">Projects</Link>
+                    <Link className='link' href="/">Home</Link>
+                    <Link className='link' href="/about">About Me</Link>
+                    <Link className='link' href="/skills">Skills</Link>
+                    <Link className='link' href="/projects">Projects</Link>
                 </div>
                 <div className='icons'>
                     <ul className='socials'>

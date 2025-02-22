@@ -8,25 +8,31 @@
     border: none;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-  }
-.intro {
-    max-width: 1500px;
-    align-items: center;
+}
+.homepage {
     display: flex;
-    padding: 1rem 2rem;
-    margin: 0rem;
     justify-content: center;
+    align-items: center;
+}
+.intro {
+    align-items: center;
+    width: fit-content;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+    display: inline-flex;
 }
 .info {
-    width: 600px;
+    max-width: 400px;
     align-items: center;
+    margin-right: 2rem;
 }
 .info h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 .info h3 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     margin-bottom: 1rem;
 }
 .info p {
@@ -34,13 +40,15 @@
     font-size: 1.25rem;
 }
 .me-image {
-    width: 600px;
-    display: flex;
+    width: fit-content;
     justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
 }
 .home-image {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     position: relative;
-    display: flex;
+    align-items: center;
+    justify-content: center;
 }
