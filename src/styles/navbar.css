@@ -1,22 +1,44 @@
 nav {
     color: #C1C8E4;
     justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    padding: 1rem 1rem;
+    display: flex;
+    padding: 4rem 1rem;
     margin: auto;
+}
+.nav {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
     width: 100%;
+    justify-content: center;
 }
 ul {
     list-style: none;
 }
 .link {
-    gap: 2rem;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
 }
 .pages {
     font-size: 2rem;
     font-weight: bold;
 }
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+    float: right;
+}
+.socials {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 4rem;
+}
 .social-media {
     width: 50px;
+    margin-left: 4rem;
 }

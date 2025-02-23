@@ -9,4 +9,5 @@
 }
 .main {
   background-image: linear-gradient(to bottom right, #5680E9 , #84CEEB, #5AB9EA, #8860D0);
+  min-height: 100vh;
 }

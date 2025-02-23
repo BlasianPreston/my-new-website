@@ -20,7 +20,7 @@ export default function Navbar() {
                 <div className='icons'>
                     <ul className='socials'>
                         <li><a href='https://www.instagram.com/isiahw06/' target="_blank"><span><FontAwesomeIcon className='social-media' icon={faInstagram}/></span></a></li>
-                        <li><a href='https://www.linkedin.com/in/isiah-preston-williams-72b581261/' target="_blank"><span><FontAwesomeIcon className='social-media' icon={faLinkedin}/></span></a></li>
+                        <li><a href='https://www.linkedin.com/in/preston-williams-72b581261/' target="_blank"><span><FontAwesomeIcon className='social-media' icon={faLinkedin}/></span></a></li>
                         <li><a href='https://github.com/BlasianPreston' target="_blank"><span><FontAwesomeIcon className='social-media' icon={faGithub}/></span></a></li>
                     </ul>
                 </div>
