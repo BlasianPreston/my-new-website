@@ -1,44 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* navbar.css */
+
 nav {
-    color: #C1C8E4;
-    justify-content: center;
-    display: flex;
-    padding: 4rem 1rem;
-    margin: auto;
-}
-.nav {
-    align-items: center;
-    display: flex;
-    gap: 2rem;
     width: 100%;
-    justify-content: center;
+    padding: 15px 0;
 }
-ul {
-    list-style: none;
-}
-.link {
-    display: inline-block;
-    justify-content: space-between;
+
+.nav {
+    display: flex;
     align-items: center;
-    margin-right: 4rem;
+    justify-content: space-between; /* Ensures proper spacing */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0 20px;
 }
+
+/* Empty div to push .pages to center */
+.spacer {
+    flex: 1;
+}
+
 .pages {
-    font-size: 2rem;
-    font-weight: bold;
+    display: flex;
+    gap: 30px;
 }
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #5680E9
+}
+
 .icons {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 4rem;
-    float: right;
+    justify-content: flex-end;
+    flex: 1; /* Pushes it to the far right */
 }
+
 .socials {
-    display: inline-flex;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     align-items: center;
-    text-align: center;
-    margin-right: 4rem;
 }
+
+.socials li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials a {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials ul:hover {
+    color: #5680E9 underline !important;
+    transition: all 0.3s ease;
+}
+
 .social-media {
+    font-size: 24px;
+    display: inline-block;
     width: 50px;
-    margin-left: 4rem;
+    height: 50px;
 }

@@ -52,3 +52,8 @@
     align-items: center;
     justify-content: center;
 }
+.underlined {
+    text-decoration: #5680E9 underline;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+}
