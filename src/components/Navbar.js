@@ -1,7 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import '../styles/navbar.css'
 
@@ -13,7 +11,7 @@ export default function Navbar() {
                 <div className='spacer'/>
                 <div className='pages'>
                     <Link className='link' href="/">Home</Link>
-                    <Link className='link' href="/about">About Me</Link>
+                    <Link className='link' href="about">About Me</Link>
                     <Link className='link' href="/skills">Skills</Link>
                     <Link className='link' href="/projects">Projects</Link>
                 </div>
