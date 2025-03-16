@@ -17,9 +17,9 @@ export default function Navbar() {
                 </div>
                 <div className='icons'>
                     <ul className='socials'>
-                        <li><a href='https://www.instagram.com/isiahw06/' target="_blank"><span><FaInstagram/></span></a></li>
-                        <li><a href='https://www.linkedin.com/in/preston-williams-72b581261/' target="_blank"><span><FaLinkedin/></span></a></li>
-                        <li><a href='https://github.com/BlasianPreston' target="_blank"><span><FaGithub/></span></a></li>
+                        <li><Link href='https://www.instagram.com/isiahw06/' target="_blank"><span><FaInstagram/></span></Link></li>
+                        <li><Link href='https://www.linkedin.com/in/preston-williams-72b581261/' target="_blank"><span><FaLinkedin/></span></Link></li>
+                        <li><Link href='https://github.com/BlasianPreston' target="_blank"><span><FaGithub/></span></Link></li>
                     </ul>
                 </div>
             </div>

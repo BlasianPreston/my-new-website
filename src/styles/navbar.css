@@ -14,6 +14,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 0 20px;
 }
 
@@ -35,6 +36,10 @@ nav {
 }
 
 .link:hover {
+    color: #5680E9
+}
+
+li Link:hover {
     color: #5680E9
 }
 
