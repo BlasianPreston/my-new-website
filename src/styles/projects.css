@@ -16,7 +16,7 @@
 }
 
 img {
-    width: auto;
+    width: 400px;
     height: 400px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
@@ -30,6 +30,7 @@ img {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .container {
@@ -45,4 +46,10 @@ img {
     margin: 0 auto;
     grid-template-columns: repeat(3, minmax(450px, 1fr));
     padding: 1rem;
+}
+.project-link {
+    color: #5680E9;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
