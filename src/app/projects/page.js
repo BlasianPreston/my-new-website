@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import C1C0 from '../../images/c1c0.png'
-import Citi from '../../images/citi-logo.png'
-import PremierLeague from '../../images/pl-logo.png'
-import URMC from '../../images/urmc-logo.png'
-import URMCWebsite from '../../images/urmc-website.png'
-import ScholarSnacks from '../../images/scholar-snacks.png'
+import C1C0 from '../../../public/c1c0.png'
+import Citi from '../../../public/citi-logo.png'
+import PremierLeague from '../../../public/pl-logo.png'
+import URMC from '../../../public/urmc-logo.png'
+import URMCWebsite from '../../../public/urmc-website.png'
+import ScholarSnacks from '../../../public/scholar-snacks.png'
 import '../../styles/projects.css'
 
 export default function Projects() {

@@ -92,7 +92,7 @@ li Link:hover {
         display: none;
     }
 }
-@media (width < 450) {
+@media (width < 500) {
     .link {
         width: 50%;
         font-size: 18px;

@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import Family from '../../images/family.jpg'
-import Jets from '../../images/jets.jpg'
-import Arsenal from '../../images/arsenal.jpg'
-import Music from '../../images/music.jpg'
-import Gym from '../../images/gym.jpg'
-import Friends from '../../images/friends.jpg'
+import Family from '../../../public/family.jpg'
+import Jets from '../../../public/jets.jpg'
+import Arsenal from '../../../public/arsenal.jpg'
+import Music from '../../../public/music.jpg'
+import Gym from '../../../public/gym.jpg'
+import Friends from '../../../public/friends.jpg'
 import '../../styles/about.css'
 
 export default function About() {

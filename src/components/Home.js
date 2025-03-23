@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Me from '../images/me.png'
+import Me from '../../public/me.png'
 import '../styles/home.css'
 
 export default function Home() {
