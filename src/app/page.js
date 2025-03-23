@@ -7,7 +7,7 @@ export default function App() {
     <div className="main">
       <Head>
         <meta name="description" content="This is Preston's personal website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta charSet="UTF-8" />
       </Head>
       <main>
