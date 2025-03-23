@@ -57,3 +57,30 @@
     text-decoration-thickness: 3px;
     text-decoration-skip-ink: none;
 }
+@media (width < 800) {
+    .intro {
+        width: 75%;
+    }
+}
+@media (width < 450) {
+    .intro {
+        width: 50%;
+        display: flex;
+    }
+    .info {
+        width: 50%;
+    }
+    .info h1 {
+        font-size: 2rem;
+    }
+    .info h3 {
+        font-size: 1rem;
+    }
+    .info p {
+        height: 50%;
+        font-size: 1rem;
+    }
+    .home-image {
+        max-width: 200px;
+    }
+}
