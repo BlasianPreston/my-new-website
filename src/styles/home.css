@@ -57,12 +57,12 @@
     text-decoration-thickness: 3px;
     text-decoration-skip-ink: none;
 }
-@media (width < 800) {
+@media (width < 800px) {
     .intro {
         width: 75%;
     }
 }
-@media (width < 450) {
+@media (width < 500px) {
     .intro {
         width: 50%;
         display: flex;
