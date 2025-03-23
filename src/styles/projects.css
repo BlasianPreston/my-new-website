@@ -53,7 +53,7 @@ img {
     text-decoration: underline;
     text-decoration-skip-ink: none;
 }
-@media (width < 800px) {
+@media (width < 1300px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(350px, 1fr));
