@@ -20,6 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="description" content="This is Preston's personal website" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta charSet="UTF-8" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Navbar />
         {children}
