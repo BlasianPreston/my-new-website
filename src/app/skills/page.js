@@ -7,7 +7,7 @@ import '../../styles/skills.css'
 
 export default function Skills() {
     return (
-        <div>
+        <div className='page'>
             <div className='skills-header'>
                 <h2>My Skills</h2>
             </div>

@@ -1,4 +1,5 @@
 * {
+  --background-image: linear-gradient(to bottom right, #5680E9 , #84CEEB, #5AB9EA, #8860D0);;
   color: white;
   padding: 0;
   margin: 0;
@@ -8,5 +9,5 @@
   font-family: 'Helvetica-Neue', sans-serif;
 }
 .main {
-  min-height: 100vh;
+  height: 100vh;
 }
